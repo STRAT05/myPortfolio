@@ -34,14 +34,14 @@ function Projects({ darkMode }) {
                   <Card.Text>{project.description}</Card.Text>
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-center">
-                  <Button
-                    variant="primary"
+                  <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="btn btn-primary"
                   >
                     See Project
-                  </Button>
+                  </a>
                 </Card.Footer>
               </Card>
             </Col>
@@ -53,4 +53,5 @@ function Projects({ darkMode }) {
 }
 
 export default Projects;
+
 
