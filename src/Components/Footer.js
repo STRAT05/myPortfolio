@@ -31,7 +31,7 @@ function Footer({ darkMode }) {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.facebook.com/PogiNah/"
             target="_blank"
             rel="noopener noreferrer"
             className={darkMode ? "text-light" : "text-dark"}
@@ -46,3 +46,4 @@ function Footer({ darkMode }) {
 }
 
 export default Footer;
+
