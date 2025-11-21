@@ -9,7 +9,7 @@ const projects = [
     title: "Portfolio Website",
     description: "My personal portfolio Website created with React and Bootstrap.",
     image: ProfileImg,
-    link: "https://github.com/STRAT05/myPortfolio",
+    link: "https://myportfolio-gamma-bay-92.vercel.app/",
   },
   {
     title: "Task Flow App",
@@ -53,3 +53,4 @@ function Projects({ darkMode }) {
 }
 
 export default Projects;
+
